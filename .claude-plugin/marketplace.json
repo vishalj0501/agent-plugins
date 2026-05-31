@@ -1,0 +1,16 @@
+{
+  "name": "vishalj0501-plugins",
+  "owner": {
+    "name": "vishalj0501"
+  },
+  "description": "Jobscout — build a reusable job-search profile, find and verify current listings, and save ranked local shortlists.",
+  "plugins": [
+    {
+      "name": "jobscout",
+      "source": "./plugins/jobscout",
+      "description": "Reusable private job-search profiles, verified public listings, and dated ranked shortlists saved locally.",
+      "category": "productivity",
+      "license": "MIT"
+    }
+  ]
+}

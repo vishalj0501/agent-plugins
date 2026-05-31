@@ -1,0 +1,9 @@
+# Jobscout private user data — never commit profiles or reports.
+.jobscout/
+
+# OS / editor noise
+.DS_Store
+Thumbs.db
+*.swp
+.idea/
+.vscode/
