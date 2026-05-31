@@ -31,8 +31,11 @@ review and edit it directly. Fill every section. Mark anything the user did not 
 - *unspecified if none given*
 
 ## Location and work arrangement
-- **Allowed locations:** e.g. Bengaluru, Remote (India)
-- **Remote / hybrid / onsite policy:** e.g. Remote-first; hybrid acceptable in Bengaluru
+- **Allowed locations:** e.g. Bengaluru, Hyderabad, UAE (onsite/hybrid OK)
+- **Remote / hybrid / onsite policy:** e.g. Onsite or hybrid in the allowed cities; fully remote also fine
+- **Remote eligibility region(s):** regions the user can legally work remotely from, used to scope
+  the remote search instead of enumerating every country — e.g. India, APAC, EMEA, Global. Remote
+  roles locked to a region the user is not eligible for are rejected.
 
 ## Eligibility
 - **Work authorization:** *unspecified unless supplied*

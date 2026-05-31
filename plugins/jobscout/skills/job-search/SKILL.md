@@ -46,7 +46,9 @@ profile".
    acceptable adjacent titles, core and secondary skills, seniority, employment type, preferred
    industries, allowed locations and remote/hybrid/onsite policy, work-authorization and
    sponsorship/relocation constraints, compensation expectations, excluded roles/companies/keywords,
-   and strict must-have filters. Two questions you must ask explicitly because they change results
+   and strict must-have filters. When the user accepts remote work, also ask which **region(s) they
+   can work remotely from** (e.g. India, APAC, EMEA, Global) — this scopes the remote search instead
+   of searching every country. Two questions you must ask explicitly because they change results
    significantly:
    - **Company stage:** startups only, established/large companies (corporate) only, or no
      preference? Record the answer; it materially changes which listings are a good fit.
@@ -79,7 +81,15 @@ search and save the results".
 4. **Cover the whole profile.** Search across **all** of the profile's allowed locations and
    acceptable adjacent titles, and respect every accepted employment type (full-time, contract, and
    freelance when the user accepts them) — do not narrow to a single location or title unless the
-   user added a refinement that does so.
+   user added a refinement that does so. Run the location coverage as separate passes:
+   - **One pass per named onsite/hybrid location** in the profile (e.g. each city or country
+     listed), including hybrid and onsite roles there.
+   - **A remote pass scoped by eligibility, not by country.** When the profile accepts remote, do
+     **not** try to enumerate every country. Search remote roles open to the user's eligible
+     region(s) — their base country, its wider region (e.g. India → APAC, UAE → MENA/EMEA), and
+     "global"/"worldwide" remote. A remote posting restricted to a region the user is not eligible
+     for (e.g. "Remote, US-only", "must be authorized in Canada") is a must-have violation and is
+     excluded, which is what keeps the remote search bounded and tractable.
 5. Search public web sources, preferring ones that can actually be opened and verified. The goal is
    to find **paid work**, not only full-time job postings — when the profile accepts contract or
    freelance, actively look for gigs and people seeking contractors, not just permanent roles.
