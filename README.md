@@ -39,9 +39,15 @@ Claude will also invoke it automatically when you ask to set up a profile or fin
 
 ## Install — Codex
 
-> Codex packaging (`.agents/plugins/marketplace.json` and `plugins/jobscout/.codex-plugin/plugin.json`)
-> is maintained alongside this repository. Once present, add the marketplace repo and install
-> `jobscout` through Codex's plugin commands. The same shared `job-search` skill is used.
+Add this repository as a marketplace, then install the plugin:
+
+```shell
+codex plugin marketplace add vishalj0501/agent-plugins
+codex plugin add jobscout@vishalj0501-plugins
+```
+
+The shared skill is available as `$job-search`, and Codex will also invoke it automatically when
+you ask to set up a profile or find jobs.
 
 ## Usage
 

@@ -1,6 +1,9 @@
 # Jobscout private user data — never commit profiles or reports.
 .jobscout/
 
+# Local-only design notes — kept out of the published repo.
+IMPLEMENTATION_SPEC.md
+
 # OS / editor noise
 .DS_Store
 Thumbs.db

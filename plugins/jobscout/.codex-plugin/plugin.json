@@ -1,0 +1,36 @@
+{
+  "name": "jobscout",
+  "version": "0.1.0",
+  "description": "Build a reusable job-search profile, find and verify current public listings, rank matches, and save dated shortlists locally. No login and no auto-apply.",
+  "author": {
+    "name": "vishalj0501"
+  },
+  "homepage": "https://github.com/vishalj0501/agent-plugins",
+  "repository": "https://github.com/vishalj0501/agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "jobs",
+    "job-search",
+    "career",
+    "hiring",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Jobscout",
+    "shortDescription": "Reusable private job-search profiles, verified public listings, and dated ranked shortlists saved locally.",
+    "longDescription": "Set up a reusable job-search profile, then find, verify, rank, and save current public work opportunities — full-time, contract, or freelance. Use when the user wants to configure their job search, build a Jobscout profile from a resume and preferences, find jobs or contract/freelance gigs that match their profile, run a new job search, or save a ranked shortlist of verified openings.",
+    "developerName": "vishalj0501",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/vishalj0501/agent-plugins",
+    "defaultPrompt": [
+      "Set up my Jobscout profile.",
+      "Find and verify current jobs that match my profile.",
+      "Run a new job search and save the results."
+    ]
+  }
+}
