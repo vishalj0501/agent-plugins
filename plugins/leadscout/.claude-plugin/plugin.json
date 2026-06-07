@@ -1,0 +1,12 @@
+{
+  "name": "leadscout",
+  "description": "Find real people worth reaching out to — recruiters, hiring managers, freelance buyers, and field peers — verify their publicly published contact channels, rank them, and save lists locally. No login, no scraping, no auto-outreach.",
+  "version": "0.1.0",
+  "author": {
+    "name": "vishalj0501"
+  },
+  "homepage": "https://github.com/vishalj0501/agent-plugins",
+  "repository": "https://github.com/vishalj0501/agent-plugins",
+  "license": "MIT",
+  "keywords": ["networking", "outreach", "recruiters", "freelance", "productivity"]
+}

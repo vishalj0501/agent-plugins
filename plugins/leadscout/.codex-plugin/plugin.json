@@ -1,0 +1,36 @@
+{
+  "name": "leadscout",
+  "version": "0.1.0",
+  "description": "Find real people worth reaching out to — recruiters, hiring managers, freelance buyers, and field peers — verify their publicly published contact channels, rank them, and save lists locally. No login, no scraping, no auto-outreach.",
+  "author": {
+    "name": "vishalj0501"
+  },
+  "homepage": "https://github.com/vishalj0501/agent-plugins",
+  "repository": "https://github.com/vishalj0501/agent-plugins",
+  "license": "MIT",
+  "keywords": [
+    "networking",
+    "outreach",
+    "recruiters",
+    "freelance",
+    "productivity"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "LeadScout",
+    "shortDescription": "Find people to reach out to, with only their publicly published contact channels, ranked and saved locally.",
+    "longDescription": "Build a reusable outreach-target profile, then find people worth contacting for a job search, freelance pipeline, or professional network — recruiters and HR, hiring managers, freelance buyers, and peers in your field. LeadScout captures only contact channels the person has intentionally published in public (LinkedIn/X profile URLs and emails they posted themselves), verifies each is live, ranks people by how worthwhile the outreach is, and saves dated lists locally. It never guesses or brokers private emails, never scrapes behind logins, and never contacts anyone.",
+    "developerName": "vishalj0501",
+    "category": "Productivity",
+    "capabilities": [
+      "Read",
+      "Write"
+    ],
+    "websiteURL": "https://github.com/vishalj0501/agent-plugins",
+    "defaultPrompt": [
+      "Set up my LeadScout profile.",
+      "Find people I can reach out to who match my profile.",
+      "Run a new outreach search and save the results."
+    ]
+  }
+}

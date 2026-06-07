@@ -1,8 +1,12 @@
 # Jobscout private user data — never commit profiles or reports.
 .jobscout/
 
+# LeadScout private user data — never commit profiles or people-lists.
+.leadscout/
+
 # Local-only design notes — kept out of the published repo.
 IMPLEMENTATION_SPEC.md
+LEADSCOUT_SPEC.md
 
 # OS / editor noise
 .DS_Store

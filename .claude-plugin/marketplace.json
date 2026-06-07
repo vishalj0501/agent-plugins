@@ -3,12 +3,19 @@
   "owner": {
     "name": "vishalj0501"
   },
-  "description": "Jobscout — build a reusable job-search profile, find and verify current listings, and save ranked local shortlists.",
+  "description": "Job-search and outreach plugins by vishalj0501 — Jobscout finds and verifies listings; LeadScout finds people you can publicly reach.",
   "plugins": [
     {
       "name": "jobscout",
       "source": "./plugins/jobscout",
       "description": "Reusable private job-search profiles, verified public listings, and dated ranked shortlists saved locally.",
+      "category": "productivity",
+      "license": "MIT"
+    },
+    {
+      "name": "leadscout",
+      "source": "./plugins/leadscout",
+      "description": "Find people worth reaching out to — recruiters, hiring managers, freelance buyers, and field peers — with only their publicly published contact channels, ranked and saved locally.",
       "category": "productivity",
       "license": "MIT"
     }
